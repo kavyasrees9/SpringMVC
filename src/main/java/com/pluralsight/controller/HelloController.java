@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloController {
 
-	@RequestMapping(value="/greeting")
-	public String sayHello(Model model){
-		
-		model.addAttribute("greeting","Hello world");
-		
+	@RequestMapping(value = "/greeting")
+	public String sayHello(Model model) {
+
+		model.addAttribute("greeting", "I love you bodi..");
+
 		return "hello";
 	}
-	
+
 }

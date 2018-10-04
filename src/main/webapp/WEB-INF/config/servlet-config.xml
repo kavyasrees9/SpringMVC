@@ -6,12 +6,17 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
 		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
-<mvc:annotation-driven></mvc:annotation-driven>
-<context:component-scan base-package="com.pluralsight.controller"></context:component-scan>
 
-<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-<property name="prefix" value="/WEB-INF/jsp/"/>
+	<mvc:annotation-driven></mvc:annotation-driven>
 
-<property name="suffix" value=".jsp"/>
-</bean>
+	<context:component-scan
+		base-package="com.pluralsight.controller">
+	</context:component-scan>
+
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="WEB-INF/jsp/" />
+
+		<property name="suffix" value=".jsp" />
+	</bean>
 </beans>
