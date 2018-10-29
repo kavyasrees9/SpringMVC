@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Add Minutes Page</title>
 </head>
 <body>
-<h1>${greeting}</h1>
+<h1>Add Minutes Exercised</h1>
 </body>
 </html>
