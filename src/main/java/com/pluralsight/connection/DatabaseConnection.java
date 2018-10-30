@@ -9,7 +9,7 @@ import org.json.JSONObject;
 import com.mysql.jdbc.Connection;
 import com.mysql.jdbc.PreparedStatement;
 import com.mysql.jdbc.Statement;
-import com.pluralsight.jsonview.Person;
+import com.pluralsight.model.Person;
 
 
 

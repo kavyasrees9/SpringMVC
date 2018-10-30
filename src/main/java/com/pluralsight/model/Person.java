@@ -1,4 +1,4 @@
-package com.pluralsight.jsonview;
+package com.pluralsight.model;
 
 public class Person {
 	private String validation;
