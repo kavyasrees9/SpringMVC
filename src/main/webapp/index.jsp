@@ -194,7 +194,7 @@ position: relative;
 
             <div class="collapse navbar-collapse navbar-right" id="myNavbar">
 
-              <h1 id="tooltitle">Fitness  Tracker</h1>
+              <h1 id="tooltitle">Fitness  Tracker - bodi</h1>
 
               <ul class="nav navbar-nav">
 
